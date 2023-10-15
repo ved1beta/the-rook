@@ -46,9 +46,32 @@ h1{
   right: -27px;
     
 }
+.result{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+.ch{
+    border: black 3px solid;
+    border-radius: 50%;
+    display: inline-block;
 
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 
-
+}
+div > p{
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.ch:hover{
+    cursor: cell;
+}
 
 
 
